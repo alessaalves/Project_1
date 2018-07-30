@@ -1,0 +1,34 @@
+git config --global user.name "alessaalves"
+git config --global user.email alessa_steffania@hotmail.com
+
+
+
+
+git init
+//Start o git no diretorio loca
+
+git add -A
+//Salva todas as trocas efetuadas
+
+git status
+//Verifica os status
+
+
+git commit -m "Messagem do commit"
+//Quando haver um commit, há uma versão
+
+git remote
+//Verifica os remote do repositório local
+//ex: git remote add origin https://github.com/alessaalves/Project_1.git
+
+git push origin master
+//Empurra o código local para o repositório online
+
+git pull origin master
+//Puxa o código do repositório online para o local
+
+
+
+
+git reset --hard
+//

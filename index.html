@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>
+	Titulo do Site
+</title>
+
+<script>
+	//alert('Oi Alessa');
+	function showNames() {
+		/* */
+   		//document.getElementById("firstname").innerHTML = "Hello World";
+   		//document.getElementById("firstname").value = "Hello World";
+   		var firstname = document.getElementById("firstname").value;
+   		var lastname = document.getElementById("lastname").value;
+   		firstname = 'Felipe';
+   		lastname = 'Henrique';
+		document.getElementById("firstname").value = firstname;
+   		document.getElementById("lastname").value = lastname;
+   		console.log(firstname);
+   		console.log(lastname);
+	}
+
+	function showMonster() {
+   		//document.getElementById("firstname").innerHTML = "Hello World";
+   		//document.getElementById("firstname").value = "Hello World";
+   		var firstname = document.getElementById("firstname").value;
+   		var lastname = document.getElementById("lastname").value;
+   		console.log(firstname);
+   		console.log(lastname);
+	}
+
+
+	function showMassa(){
+		document.getElementById("form2").style.background = 'red';
+	}
+
+	//document
+	//window
+</script>
+
+<style type="text/css">
+	
+	//Isso é uma classe
+	.color-red {
+		color: purple;
+	}
+
+	//Isso é uma referencia de ID que existe no HTML (document) 
+	#secondDiv {
+		font-size: 25px;
+	}
+
+
+</style>
+
+</head>
+<body>
+	sa8usay7sahsayhashy
+	<div style="width:100%;display:block">
+		<div style="display:inline-grid;width:49.7%;">
+			<form action="/action_page.php">
+			  First name:<br>
+			  <input id="firstname" type="text" name="firstname" value="Mickey" onchange="showMassa()">
+			  <br>
+			  Last name:<br>
+			  <input id="lastname" type="text" name="lastname" value="Mouse">
+			  <br><br>
+			  <input type="submit" value="Submit">
+			</form> 
+		</div>
+
+		<div style="display:inline-grid;width:49.7%;" id="secondDiv">
+			<form id="form2"  action="/action_page.php">
+			  First name:<br>
+			  <input id="firstnameCustom" type="text" name="firstname" value="Mickey">
+			  <br>
+			  Last name:<br>
+			  <input id="lastnameCustom" type="text" name="lastname" value="Mouse">
+			  <br><br>
+			  <input type="submit" value="Submit">
+			</form>
+		</div>
+		
+	</div>
+
+	<button onclick="showNames()">Button One</button>
+	<!-- 
+		<button onchange=""></button>
+		<button onblur=""></button>
+	-->
+</body>
+</html
