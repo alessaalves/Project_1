@@ -34,12 +34,13 @@ git reset --hard
 git checkout -b name_branch
 //Cria uma branch, se existir a branch irá seta-la
 
+git branch
+//Verifica as branchs existentes
 
 git checkout name_branch
 //Irá setar a branch
 
-git branch
-//Verifica as branchs existentes
+
 
 
 
