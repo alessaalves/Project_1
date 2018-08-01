@@ -25,7 +25,11 @@ git pull origin master
 //Puxa o código do repositório online para o local
 
 git reset --hard
+<<<<<<< HEAD
+//
+=======
 //tira o que foi salvo
+>>>>>>> 089856c5c2016f25f1728bb7ec7c13d9f5271e7c
 
 
 ///////BRANCH
@@ -34,13 +38,9 @@ git reset --hard
 git checkout -b name_branch
 //Cria uma branch, se existir a branch irá seta-la
 
-git checkout name_branch
-//Irá setar a branch
-
 git branch
 //Verifica as branchs existentes
 
-
-
-
+git checkout name_branch
+//Irá setar a branch
 
