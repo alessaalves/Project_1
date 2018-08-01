@@ -1,4 +1,4 @@
-﻿jgit config --global user.name "alessaalves"
+﻿git config --global user.name "alessaalves"
 git config --global user.email alessa_steffania@hotmail.com
 
 git init
@@ -26,3 +26,20 @@ git pull origin master
 
 git reset --hard
 //
+
+
+///////BRANCH
+
+
+git checkout -b name_branch
+//Cria uma branch, se existir a branch irá seta-la
+
+
+git checkout name_branch
+//Irá setar a branch
+
+git branch
+//Verifica as branchs existentes
+
+
+
