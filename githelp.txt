@@ -1,8 +1,5 @@
-git config --global user.name "alessaalves"
+﻿jgit config --global user.name "alessaalves"
 git config --global user.email alessa_steffania@hotmail.com
-
-
-
 
 git init
 //Start o git no diretorio loca
@@ -26,9 +23,6 @@ git push origin master
 
 git pull origin master
 //Puxa o código do repositório online para o local
-
-
-
 
 git reset --hard
 //
